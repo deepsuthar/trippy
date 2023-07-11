@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar"
 import aboutImg from "../assets/night.jpg"
+import Footer from "../components/Footer";
+import Trip from "../components/Trip";
 
 function Service (){
     return(
@@ -11,6 +13,8 @@ function Service (){
         heroImg={aboutImg}
         title="Service"
         />
+        <Trip/>
+        <Footer/>
         </>
     )
 }

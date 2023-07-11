@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar"
 import aboutImg from "../assets/night.jpg"
+import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 function About (){
     return(
@@ -11,6 +13,8 @@ function About (){
         heroImg={aboutImg}
         title="About"
         />
+        <AboutUs/>
+        <Footer/>
         </>
     )
 }

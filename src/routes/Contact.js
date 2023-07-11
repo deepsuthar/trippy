@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar"
 import aboutImg from "../assets/2.jpg"
+import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 function Contact (){
     return(
@@ -11,6 +13,8 @@ function Contact (){
         heroImg={aboutImg}
         title="Contact"
         />
+        <ContactForm/>
+        <Footer/>
         </>
     )
 }
